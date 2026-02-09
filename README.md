@@ -72,7 +72,7 @@ Güvenlik, yetki yönetiminde başlar. Sistemlerin iç yapısını bilmek, yetki
 ##### 4.Coding & Automation 🐍
 Kodlama, bir siber güvenlikçinin en önemli yardımcılarından biridir. Hazır araçların bittiği yerde kendi çözümünü üretmek için programlama bilgisi gereklidir.
 
-* Programlama Dilleri : Ağ tarayıcıları, brute-force scriptleri ve otomasyon araçları. Örneğin Python(vb.)
+* Programlama Dilleri : Ağ tarayıcıları, brute-force scriptleri ve otomasyon araçlar (örneğin Python).
 
 * Algoritmik Düşünce : Saldırı vektörlerini koda dökme ve savunma scriptleri yazma.
 
