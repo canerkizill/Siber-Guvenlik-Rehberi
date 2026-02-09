@@ -116,6 +116,9 @@ CyberDefenders : Mavi takım becerilerini ölçen ve pratik yapmanı sağlayan y
 ##### 🌐 Web Uygulama Güvenliği
 PortSwigger Academy: Burp Suite'in yapımcılarından, sektördeki en kapsamlı ve ücretsiz web güvenliği eğitimlerini içeren platformlardan biridir. SQLi, XSS ve diğer OWASP Top 10 açıklarını lab ortamlarında bizzat sömürmenizi sağlar.
 
+
+Ayrıca yol haritası ve daha fazla kaynak önerisi için bakabilirsiniz : https://github.com/Hamed233/Cybersecurity-Mastery-Roadmap
+
 ## 📖 Dokümantasyon Çıkarma
 Buradaki her dosya, sıfırdan öğrenen bir öğrenci gözüyle hazırlanmıştır. İçerikler şu yapıyı takip eder:
 
