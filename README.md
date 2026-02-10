@@ -37,10 +37,43 @@ Siber güvenliğin ana dili İngilizce'dir. En yeni exploitler, teknik dokümanl
 ##### 🛡️ 6. Etik Sınırlara Sadık Kalın (White-Hat Mindset)
 Öğrendiğiniz teknikler çok güçlü silahlardır. Bu gücü her zaman dijital dünyayı daha güvenli bir yer haline getirmek için kullanın. Etik duruş, bir siber güvenlikçinin en değerli kimliğidir.
 
-## Siber Güvenliğin Temelleri
+## 🗺️ Siber Güvenlik Yol Haritası
+Siber güvenlik sektöründe konu sayısı ve derinliği fazla olduğu için içerisinde kaybolmak başlangıçta en sık rastlanılan sorunlardan biridir. Bunun için planlı ve sistematik şekilde hareket etmek gerekiyor. Bu yol haritası, siber güvenlikte adım adım ve kafa karışıklığına yer bırakmadan nasıl ilerleneceğini gösteren bir rehber niteliğinde olacaktır.
+
+#### 📍 Phase 1: Başlangıç (Foundations)
 Siber güvenlik temel olarak dört ana disiplini kapsar. Bu alanlarda uzmanlaşmadan ileri seviye saldırı/savunma yapmak düşünülemez. İşte dört temel disiplin:
 
-##### 1.Hacking 🛡️
+##### 1.Networking 🌐
+
+Ağ bilgisi, bir siber güvenlikçi adayının görebilme yeteneğidir. Paketlerin yapısını bilmek, trafiğe müdahale etmenin ilk şartıdır.
+
+* OSI Modeli & TCP/IP : Verinin katmanlar arası yolculuğu.
+
+* Protokol Analizi : HTTP, DNS, SMB, FTP ve daha fazlası.
+
+* Araçlar : Wireshark ile paket analizi ve Nmap ile ağ topolojisi.
+
+
+##### 2.Operating Systems 🐧
+
+Güvenlik, yetki yönetiminde başlar. Sistemlerin iç yapısını bilmek, yetki yükseltme mantığını kavramayı sağlar.
+
+* Linux : Dosya sistemleri, kernel yapısı, Bash scripting ve terminal hakimiyeti.
+
+* Windows : Active Directory, Registry kayıtları ve PowerShell kullanımı.
+
+
+##### 3.Coding & Automation 🐍
+
+Kodlama, bir siber güvenlikçinin en önemli yardımcılarından biridir. Hazır araçların bittiği yerde kendi çözümünü üretmek için programlama bilgisi gereklidir.
+
+* Programlama Dilleri : Ağ tarayıcıları, brute-force scriptleri ve otomasyon araçlar (örneğin Python).
+
+* Algoritmik Düşünce : Saldırı vektörlerini koda dökme ve savunma scriptleri yazma.
+
+
+##### 4.Hacking 🛡️
+
 Güvenliğin kalbi olan CIA Triad prensiplerini ve saldırı metodolojilerini kapsar.
 
 * Keşif ve Tarama: Hedef sistem hakkında bilgi toplama.
@@ -51,74 +84,149 @@ Güvenliğin kalbi olan CIA Triad prensiplerini ve saldırı metodolojilerini ka
 
 * Raporlama: Bulguların etik çerçevede sunulması.
 
+#### 🚀 Faz 2: Orta Seviye (Intermediate)
 
-##### 2.Networking 🌐
-Ağ bilgisi, bir siber güvenlikçi adayının görebilme yeteneğidir. Paketlerin yapısını bilmek, trafiğe müdahale etmenin ilk şartıdır.
-
-* OSI Modeli & TCP/IP : Verinin katmanlar arası yolculuğu.
-
-* Protokol Analizi : HTTP, DNS, SMB, FTP ve daha fazlası.
-
-* Araçlar : Wireshark ile paket analizi ve Nmap ile ağ topolojisi.
+Bu aşamada temel disiplinler birleşerek spesifik saldırı yüzeylerine ve profesyonel analiz tekniklerine dönüşür. Artık sistemleri sadece tanımıyor, onların nasıl kırıldığını ve nasıl izlendiğini derinlemesine inceliyoruz.
 
 
-##### 3.Operating Systems 🐧
-Güvenlik, yetki yönetiminde başlar. Sistemlerin iç yapısını bilmek, yetki yükseltme mantığını kavramayı sağlar.
+##### 1.Web Application Security 🌐
 
-* Linux : Dosya sistemleri, kernel yapısı, Bash scripting ve terminal hakimiyeti.
+Modern dünyanın en geniş saldırı yüzeylerinden biri olan web uygulamalarının zafiyet anatomisini kapsar.
 
-* Windows : Active Directory, Registry kayıtları ve PowerShell kullanımı.
+* OWASP Top 10 : En kritik 10 web zafiyetinin (SQLi, XSS, IDOR, Broken Auth vb.) mantıksal kavrayışı.
 
-##### 4.Coding & Automation 🐍
-Kodlama, bir siber güvenlikçinin en önemli yardımcılarından biridir. Hazır araçların bittiği yerde kendi çözümünü üretmek için programlama bilgisi gereklidir.
+* Proxy & Analiz : Burp Suite ve OWASP ZAP gibi araçlarla HTTP trafiğini manipüle etme ve test etme.
 
-* Programlama Dilleri : Ağ tarayıcıları, brute-force scriptleri ve otomasyon araçlar (örneğin Python).
-
-* Algoritmik Düşünce : Saldırı vektörlerini koda dökme ve savunma scriptleri yazma.
-
-### Ekstralar :
-##### Hardware Hacking & IoT 🔌
-
-Siber güvenlik sadece yazılımla sınırlı değildir. Sanal dünyanın fiziksel dünya ile buluştuğu nokta, siber güvenliğin önemli alanlarından biridir.
-
-* Gömülü Sistemler: Mikrodenetleyicilerin çalışma mantığı ve sensör etkileşimi.
-
-* Protokol Analizi: UART, I2C ve SPI gibi donanım haberleşme dilleri üzerinden veri elde etme.
-
-* Fiziksel Güvenlik: BadUSB saldırıları, RFID/NFC klonlama ve devre kartı analizi.
-
-* IoT Güvenliği: Akıllı cihazların ekosistemindeki zayıflıkların tespiti.
+* API Güvenliği : Modern ağın kalbi olan REST/GraphQL API’larındaki güvenlik açıklarını tespit etme.
 
 
-##### Red Team, Blue Team ve Purple Team ⚔️
+##### 2.Network Security & Monitoring 🛡️
 
-Bu bölüm, saldırı ve savunma stratejilerinin disiplinlerdir.
+Ağ trafiğinin sadece paket seviyesinde değil, güvenlik duvarları ve izleme sistemleri perspektifinden yönetilmesidir.
 
-🔴 Red Team
-Saldırgan bir bakış açısıyla sistemlerin direncini ölçer. Sadece zafiyet bulmakla kalmaz, bu zafiyetlerin gerçek bir saldırıda nasıl zincirlenebileceğini simüle eder.
+* Savunma Mekanizmaları : Firewall, IDS/IPS (Saldırı Tespit/Önleme Sistemleri) yapılandırmaları.
 
-* Adversary Emulation: Gerçek dünya tehdit aktörlerinin tekniklerini taklit etme.
+* Anomali Tespiti : Ağ trafiğindeki şüpheli hareketleri (örneğin Port scanning, C2 trafiği) ayırt edebilme yetisi.
 
-* Social Engineering: İnsan faktörünü manipüle ederek sisteme sızma yolları.
+* VPN & Tünelleme : Veri trafiğini güvenli tüneller üzerinden taşıma ve şifreleme protokolleri.
+
+
+##### 3.SOC & Incident Response 📉
+
+Güvenlik operasyonlarının kalesidir; bir saldırı anında veya sonrasında verilecek tepkiyi belirler.
+
+* SIEM Çözümleri : Log verilerini merkezileştirme ve korelasyon kurma (örneğin Splunk, ELK, Microsoft Sentinel).
+
+* Olay Müdahalesi (Incident Response) : Bir ihlal durumunda "Triage", "Containment" ve "Eradication" adımlarının yönetimi.
+
+* Dijital Adli Tıp (DFIR) : Bellek ve disk üzerinden saldırı izlerini sürme, kanıt toplama.
+
+
+##### 4.Advanced Scripting ⚙️
+
+Hazır araçların sınırlarına ulaşıldığında devreye giren, siber güvenlikçinin kendi çözümlerini üretme becerisidir.
+
+* Otomatize Tarama : Python veya Bash kullanarak devasa ağlarda zafiyet keşfini hızlandıracak scriptler.
+
+* Veri İşleme : Log dosyalarından veya API çıktılarından kritik güvenlik verilerini ayıklama ve görselleştirme.
+
+#### 🏁 Faz 3: İleri Seviye (Advanced)
+Teknik uzmanlığın en üst noktasıdır. Bu seviyede sadece mevcut açıkları kullanmakla kalmaz, yeni saldırı ve savunma metodolojileri geliştiririz.
+
+
+##### 1.Exploit Development & RE ⚡
+
+Yazılımların derinliklerine inerek bellek seviyesinde sömürü geliştirme sürecidir.
+
+* Reverse Engineering : Tersine mühendislik ile bir uygulamanın kaynak kodu olmadan çalışma mantığını çözme.
+
+* Bellek Güvenliği : Buffer Overflow, ROP Chain gibi ileri seviye bellek manipülasyon teknikleri.
+
+* Exploit Scripting : Tespit edilen bir mantık hatasını çalışan bir sömürü koduna dönüştürme.
+
+
+##### 2.Malware Analysis 🦠
+
+Zararlı yazılımların davranışlarını laboratuvar ortamında inceleme disiplinidir.
+
+* Statik Analiz : Kodu çalıştırmadan paket yapısını ve kütüphane çağrılarını inceleme.
+
+* Dinamik Analiz : Debugger ve Sandbox ortamlarında zararlı yazılımın sistemdeki etkilerini gözlemleme.
+
+* YARA & Sigma : Zararlıları tespit etmek için özel imza ve kural yazma dilleri.
+
+
+##### 3.Cloud & Infrastructure Security ☁️
+
+Modern altyapıların (Bulut ve Konteyner vb.) güvenliğini sağlama uzmanlığıdır.
+
+* Konteyner Güvenliği: Docker ve Kubernetes ortamlarındaki izolasyon ve konfigürasyon açıkları.
+
+* Cloud Pentesting: AWS, Azure ve Google Cloud üzerindeki yetki yükseltme ve veri sızdırma senaryoları.
+
+* DevSecOps: Güvenliği yazılım geliştirme sürecinin bir parçası haline getirme stratejileri.
+
+
+##### 4.Advanced Red & Blue Teaming ⚔️🛡️
+
+Saldırı ve savunma stratejilerinin en üst düzeydeki etkileşimine odaklanır. Bu seviyede hedef, sadece bireysel açıklar değil; kurumun toplam tespit ve yanıt kapasitesini (Detection & Response) test etmektir.
+
+Advanced Red Teaming: Gerçek dünya tehdit aktörlerini taklit ederek (Adversary Emulation) savunma katmanlarını zorlama.
+
+* C2 & Infrastructure : Karmaşık saldırı altyapıları ve gizli haberleşme kanalları kurma.
+
+* Evasion & Persistence: EDR/AV gibi modern savunma mekanizmalarını atlatma teknikleri ve sistemde kalıcılık sağlama stratejileri.
 
 * Metodoloji: Cyber Kill Chain ve **[MITRE ATT&CK matrisi](https://attack.mitre.org/)** üzerinden saldırı planlama.
 
-🔵 Blue Team
-Sürekli izleme, analiz ve koruma odaklıdır. Amaç, saldırıyı gerçekleşmeden durdurmak veya gerçekleştiği anda en az hasarla püskürtmektir.
+Advanced Blue Teaming: Karmaşık saldırıları tespit etme, analiz etme ve püskürtme kapasitesini geliştirme.
 
-* SIEM & SOC: Ağ trafiğini ve logları 7/24 izleyerek anomali tespiti yapma.
+* Threat Hunting: İmzaya dayalı değil, davranışa dayalı (TTPs) analizler ile sistemdeki gizli tehditleri proaktif olarak avlama.
 
-* Incident Response : Bir sızıntı anında sistemi izole etme ve temizleme süreci.
+* Gelişmiş DFIR: Bir ihlalin kapsamını ve kök nedenini belirlemek için derinlemesine dijital adli tıp ve olay müdahale operasyonlarını yürütme.
 
-* DFIR : Saldırı sonrası dijital kanıt toplama ve saldırının kök nedenini bulma.
+### ➕ Ekstra Disiplinler ve Uzmanlık Alanları
 
 
-🟣 Purple Team
+#### Purple Team 🟣
+
 Red ve Blue takımlarıyla ortak olarak çalışan, saldırı verilerini savunma mekanizmalarını güçlendirmek için kullanılan bir üst disiplindir.
 
 * Feedback Loop : Red Team'in başarılı olduğu noktaları Blue Team'e aktararak sistem eksikliklerini kapatmak.
 
 * Dinamik Savunma : Saldırı simülasyonları ile savunma kurallarını (örneğin Sigma) sürekli güncelleme.
+
+
+#### Social Engineering & OSINT (İnsan Faktörü ve İstihbarat) 🔍
+
+Siber güvenliğin en zayıf halkası olan insanı ve açık kaynaklı bilgileri anlama disiplinidir.
+
+* OSINT : İnternetteki açık kaynaklardan veri toplama ve analiz teknikleri.
+
+* İnsan Psikolojisi : Sosyal mühendislik saldırı vektörleri (Phishing, Pretexting) ve korunma yolları.
+
+
+#### Hardware Hacking & IoT 🔌
+
+Siber güvenlik sadece yazılımla sınırlı değildir. Sanal dünyanın fiziksel dünya ile buluştuğu nokta, siber güvenliğin önemli alanlarından biridir.
+
+* Gömülü Sistemler : Mikrodenetleyicilerin çalışma mantığı ve sensör etkileşimi.
+
+* Protokol Analizi : UART, I2C ve SPI gibi donanım haberleşme dilleri üzerinden veri elde etme.
+
+* Fiziksel Güvenlik : BadUSB saldırıları, RFID/NFC klonlama ve devre kartı analizi.
+
+* IoT Güvenliği : Akıllı cihazların ekosistemindeki zayıflıkların tespiti.
+
+
+#### Teknik Raporlama ✍️
+
+Bulguları sadece teknik kişilere değil, yöneticilere de anlatabilme becerisidir.
+
+* Rapor Hazırlama : Sızma testi sonuçlarını profesyonel standartlarda dokümante etme.
+
+* Dokümantasyon Kültürü : Teknik süreçleri herkesin anlayabileceği şekilde blog veya wiki formatında yazma.
+
 
 ## Eğitim Kaynakları ve Uygulama Alanları
 Aşağıdaki kaynaklardan teorik bilgiler edinip, öğrendiğiniz bilgileri laboratuvar ortamlarında pratik olarak deneyerek kalıcı bir şekilde pekiştirmeyi sağlayabilirsiniz:
@@ -153,21 +261,23 @@ Aşağıdaki kaynaklardan teorik bilgiler edinip, öğrendiğiniz bilgileri labo
 * **[PortSwigger Academy](https://portswigger.net/web-security)** : Burp Suite'in yapımcılarından, sektördeki en kapsamlı ve ücretsiz web güvenliği eğitimlerini içeren platformlardan biridir. SQLi, XSS ve diğer OWASP Top 10 açıklarını lab ortamlarında bizzat sömürmenizi sağlar.
 
 
-Ayrıca yol haritası ve daha fazla kaynak önerisi için bakabilirsiniz : https://github.com/Hamed233/Cybersecurity-Mastery-Roadmap
+Ayrıca daha fazla kaynak önerisi için bakabilirsiniz : https://github.com/Hamed233/Cybersecurity-Mastery-Roadmap
 
-## 📖 Dokümantasyon Çıkarma
-Buradaki her dosya, sıfırdan öğrenen bir öğrenci gözüyle hazırlanmıştır. İçerikler şu yapıyı takip eder:
+## 📖 Süreç ve Metodoloji
 
-* "Nedir?" : Kavramın tanımı yapılır.
+Buradaki her dosya, sıfırdan öğrenen bir öğrenci gözüyle hazırlanmıştır. Hazırlanan her dosya, yukarıda belirtilen fazlara göre kendi içerisinde mantıksal bir sıra ile ilerler. İçerikler şu yapıyı takip eder:
+
+* "Nedir?" : Kavramın tanımı yapılır. Belirlenen disiplindeki teorik altyapıyı sindir.
 
 * "Nasıl çalışır?" : Çalışma mantığından bahsedilir.
 
-* "Uygulama" : Örnek kodlar ve lab çıktılarını içerir.
+* "Uygulama" : Örnek kodlar ve lab ortamının çıktılarını içerir. 
 
 * "Hacker's Note" : Detayları olarak profesyonel ipuçlar içerir.
 
 
 ## 🤝 İletişim ve Katkıda Bulunma
+
 Siber güvenlik, paylaştıkça büyüyen ve gelişen bir ekosistemdir. Bu repodaki notlar hakkında bir sorunuz varsa, bir hatayı düzeltmek isterseniz veya sadece siber güvenlik üzerine sohbet etmek isterseniz bana ulaşabilirsiniz:
 
 -LinkedIn : https://www.linkedin.com/in/canerkizil/
