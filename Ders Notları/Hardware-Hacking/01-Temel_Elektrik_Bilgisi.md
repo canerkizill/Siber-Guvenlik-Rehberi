@@ -15,7 +15,7 @@ Bir elektrik devresi, elektronların bir kaynaktan çıkıp bir yol izleyerek i�
 
 - **Sigorta :** Devrenin güvenliğini sağlar. Eğer devreden kapasitesinden fazla akım geçerse, sigorta atar veya kopar; böylece diğer cihazların yanmasını önler. 
 
- 
+ ![Image](https://github.com/user-attachments/assets/051ca599-86bd-48d3-a95c-4f0dd8edea9c)
 
  
 
@@ -58,7 +58,7 @@ Bu üçlü arasındaki ilişkiyi anlamak için şu üçgeni kullanırız:
 - **R = V / I** 
 
   
-
+![Image](https://github.com/user-attachments/assets/d312c147-5894-416b-9320-0c475c90d6e9)
  
 
 ## 5. Güç ve Enerji 
@@ -79,11 +79,10 @@ Elektrik iki farklı şekilde akabilir:
 
 - **DC (Doğru Akım) :** Tek yöne ve sabit akar. Bilgisayarlar, telefonlar, Arduino ve tüm pilli cihazlar DC ile çalışır. Adaptörler, prizden gelen AC'yi cihazımızın kullanabileceği DC'ye dönüştürür. 
 
- 
+ ![Image](https://github.com/user-attachments/assets/df87e176-8dcf-4f68-bec8-23b555014ce0)
 
 ## 7. Direnç Renk Kodlarını Okuma 
 
- 
 
 Dirençlerin üzerindeki renkler, onların kaç Ohm olduğunu söyler. 
 
@@ -92,6 +91,8 @@ Dirençlerin üzerindeki renkler, onların kaç Ohm olduğunu söyler.
 Yanyana getir : 10 
 
 Çarpanla çarp : 10 x 100 = 1000Ω (1kΩ). 
+
+<img width="499" height="422" alt="Image" src="https://github.com/user-attachments/assets/ef5f69c9-bdb9-4917-97d6-f70dd9fee8d6" />
 
  
 
